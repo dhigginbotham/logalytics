@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "author": {
     "name": "David Higginbotham",
-    "email": "davehigginbotham@gmail.com",
+    "email": "davehigginbotham@gmail.com"
   },
   "license": "MIT",
   "dependencies": {
@@ -19,5 +19,5 @@
   "scripts": {
     "test": "mocha test/logalytics.js -R spec -t 2000"
   },
-  "bugs": "https://github.com/dhigginbotham/logalytics-js/issues"  
+  "bugs": "https://github.com/dhigginbotham/logalytics-js/issues"
 }
