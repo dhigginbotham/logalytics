@@ -1,0 +1,23 @@
+{
+  "name": "logalytics.js",
+  "version": "0.0.1",
+  "description": "event based log for stdout allows you to log events very easily and not have to write existing codebase for logging",
+  "main": "lib/index.js",
+  "author": {
+    "name": "David Higginbotham",
+    "email": "davehigginbotham@gmail.com",
+  },
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "latest",
+    "mkdirp": "latest"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "expect.js": "latest"
+  },
+  "scripts": {
+    "test": "mocha test/logalytics.js -R spec -t 2000"
+  },
+  "bugs": "https://github.com/dhigginbotham/logalytics-js/issues"  
+}
